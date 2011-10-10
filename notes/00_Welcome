@@ -1,0 +1,59 @@
+Overview
+  purpose
+    - basics of ai
+    - get excited about ai!
+
+  structure
+    - videos
+    - quizzes
+    - answer videos
+    - hw
+    - exams
+
+  an ai program is called
+    * an intelligent agent
+
+Intelligent Agents
+  agent perceives state of enviro thru sensors
+  they affect enviro via actuators
+  control policy maps the two
+  class deals with this relationship loop
+
+Applications of AI
+  ai in finance
+    - trading agent
+    - reads news
+    - follows events
+    - decisions: buy / sell
+
+  ai in robotics
+    - cameras
+    - motors
+    - voice
+    - in web, early crawlers called robots
+
+  ai in games
+    - chess agents
+    - makes games feel more natural
+
+  ai in medicine
+    - diagnostic agents
+
+  ai on the web
+    - search
+    - "really core artificial intelligence"
+    - crawling agent goes to www and retrieves pages
+    - stores them
+    - analyzes them
+    - you issue query
+
+Terminology
+  fully vs partially observable
+    - perception action cycle
+  deterministic vs stochastic
+    - chess deterministic
+    - dice stochastic (random)
+  discrete vs continuous
+  benign vs adversarial
+    - in benign enviro may be random but not out to get you
+    - games like chess (opponent out to get you)
