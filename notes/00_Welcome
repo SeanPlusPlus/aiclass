@@ -49,11 +49,25 @@ Applications of AI
 
 Terminology
   fully vs partially observable
+    - fully: what your agent can sense at any pt in time, sufficient to make optimal choice
+      - if in poker all cards on table
+    - partially: observable not sufficient
+      - normal poker game
     - perception action cycle
+    * Environment fully observable if sensors can see entire state of environment
+    * Partial need internal memory to understand state of environemnt
   deterministic vs stochastic
-    - chess deterministic
+    - chess deterministic (actions uniquely determine outcome)
     - dice stochastic (random)
   discrete vs continuous
+    - discrete finally many choices, things you can sense (chess)
+    - continuous space of actions, things you sense infinite (darts)
   benign vs adversarial
     - in benign enviro may be random but not out to get you
     - games like chess (opponent out to get you)
+
+Machine Translation
+  - rad
+  - build translation model
+  - when given text, use this model
+  - match shit ton of already translated articles, build algorithm accordingly
