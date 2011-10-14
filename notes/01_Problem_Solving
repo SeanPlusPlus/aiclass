@@ -2,3 +2,34 @@ Route Finding
   - frontier: node at furthest point of exploration
   - explored: nodes you have visited
   - unexplored
+
+Tree Search Functions
+
+Breadth - First Search
+  - alwasys choose from frontier the shortest possible path
+  - ex:
+  function TreeSearch(problem):
+    frontier = {[initial]}
+    loop:
+      if frontier is empty: return fail
+      path = remove_choice(frontier) #choice
+      s = path.end
+      if s is a goal: return path
+      for a in actions:
+        add [path + a -> Result + (s,a)]
+        to frontier
+
+Graph Search
+  - don't repeat paths you have visited
+  - ex:
+  function TreeSearch(problem):
+    frontier = {[initial]}; explored {}
+    loop:
+      if frontier is empty: return fail
+      path = remove_choice(frontier) #choice
+      s = path.end ; add s to explored
+      if s is a goal: return path
+      for a in actions:
+        add [path + a -> Result + (s,a)]
+        to frontier
+        unless Result(s,a) in frontier + explored
