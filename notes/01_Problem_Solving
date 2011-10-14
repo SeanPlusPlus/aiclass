@@ -1,0 +1,4 @@
+Route Finding
+  - frontier: node at furthest point of exploration
+  - explored: nodes you have visited
+  - unexplored
