@@ -33,3 +33,10 @@ Graph Search
         add [path + a -> Result + (s,a)]
         to frontier
         unless Result(s,a) in frontier + explored
+
+Cheapest First Search
+  - Always expand path with the lowest total cost
+  - Guaranteed to find path with cheapest total cost
+
+Depth First Search
+  - always expand longest path
